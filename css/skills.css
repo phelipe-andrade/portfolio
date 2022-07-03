@@ -1,0 +1,123 @@
+.bg-skills {
+  text-align: center;
+  background: #1e2326;
+  border: none;
+}
+
+.bg-skills h2 {
+  color: white;
+  font-family: 'Righteous', 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
+.bg-skills h2::before {
+  content: ' ';
+  position: relative;
+  border-bottom: 1px solid #1cb798;
+  width: 80px;
+  line-height: 42px;
+  bottom: -50px;
+  display: block;
+  margin: 0 auto;
+}
+.bg-skills h2::after {
+  content: ' ';
+  border-bottom: 1px solid #1cb798;
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 70px 0;
+}
+
+.skills h3{
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'Righteous', 'IBM Plex Mono', monospace;
+  padding-bottom: 30px;
+}
+
+
+
+.skills h3::after{
+  content: ' ';
+  display: block;
+  position: relative;
+  top: 10px;
+  border: 3px solid #bcf3e9;
+  border-radius: 10px;
+  width: 30px;
+  margin: 0 auto;
+  box-shadow: 0 0 2px #1cb798,
+              0 0 4px #1cb798,
+              0 0 6px #1cb798,
+              0 0 8px #1cb798,
+              0 0 16px #1cb798;
+}
+
+
+.front{
+  margin-right: 50px;
+}
+
+
+.front, .back{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills ul{
+  padding: 15px 0 15px 30px ;
+  width: 90%;
+  background: #252a2e;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills div:hover h3::after{
+  box-shadow: 0 0 2px var(--clr),
+              0 0 4px var(--clr),
+              0 0 6px var(--clr),
+              0 0 8px var(--clr),
+              0 0 16px var(--clr);
+}
+
+
+.skills li{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.125rem;
+  height: 50px;
+}
+
+.skills li div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+
+
+.skills .img{
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.skills img{
+  max-width: 30px;
+}
+

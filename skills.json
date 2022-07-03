@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "skill":" HTML 5",
+      "img": "html-5.png"
+    },
+    {
+      "skill":" CSS 3",
+      "img": "css.png"
+    }
+  ]
+}
+  
