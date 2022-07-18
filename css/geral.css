@@ -24,6 +24,35 @@ ul {
   list-style: none;
 }
 
+.h2 {
+  color: white;
+  font-family: 'Righteous', 'IBM Plex Mono', monospace;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding-top: 40px;
+}
+
+
+.h2::before {
+  content: ' ';
+  position: relative;
+  border-bottom: 1px solid #1cb798;
+  width: 80px;
+  line-height: 42px;
+  bottom: -50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.h2::after {
+  content: ' ';
+  border-bottom: 1px solid #1cb798;
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 /* button */
 
 .button {
@@ -248,32 +277,6 @@ header.active {
   text-align: center;
 }
 
-.sobre-info h2 {
-  position: relative;
-  color: white;
-  font-family: 'Righteous', 'IBM Plex Mono', monospace;
-  font-size: 2rem;
-  letter-spacing: 2px;
-}
-
-.sobre-info h2::before {
-  content: ' ';
-  position: relative;
-  border-bottom: 1px solid #1cb798;
-  width: 80px;
-  line-height: 42px;
-  bottom: -50px;
-  display: block;
-  margin: 0 auto;
-}
-.sobre-info h2::after {
-  content: ' ';
-  border-bottom: 1px solid #1cb798;
-  display: block;
-  width: 40px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
 
 .sobre-info p {
   color: white;
@@ -299,100 +302,6 @@ header.active {
   margin: 0 15px;
 }
 
-/*skills*/
-
-/* .bg-skills {
-  background: #1e2326;
-  text-align: center;
-  border: none;
-}
-
-.bg-skills h2 {
-  color: white;
-  font-family: 'Righteous', 'IBM Plex Mono', monospace;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  padding-top: 40px;
-}
-
-.bg-skills h2::before {
-  content: ' ';
-  position: relative;
-  border-bottom: 1px solid #1cb798;
-  width: 80px;
-  line-height: 42px;
-  bottom: -50px;
-  display: block;
-  margin: 0 auto;
-}
-.bg-skills h2::after {
-  content: ' ';
-  border-bottom: 1px solid #1cb798;
-  display: block;
-  width: 40px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.skills {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
-  border: none;
-}
-
-.bg-skills .button {
-  margin-bottom: 50px;
-}
-
-.skills-list h3 {
-  padding-top: 20px;
-  font-size: 1.125rem;
-  color: white;
-  font-weight: normal;
-}
-
-.skills-list h3::after {
-  content: ' ';
-  display: block;
-  border-bottom: 2px solid #707070;
-  width: 80px;
-  margin: 0 auto;
-  padding-top: 5px;
-}
-
-.skills-list {
-  display: flex;
-  width: 940px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 10px;
-}
-
-.skills-list li {
-  height: 176px;
-  width: 160px;
-  background: #252a2e;
-  margin: 25px 7px 0 7px;
-  border-radius: 4px;
-}
-
-.skills-list li img {
-  width: 90px;
-  padding-top: 15px;
-}
-
-.skills-list li img {
-  -webkit-filter: drop-shadow(0 0 10px #191e21);
-  filter: drop-shadow(0 0 10px #191e21);
-}
-
-.skills-list li:hover img {
-  -webkit-filter: drop-shadow(0 0 5px var(--clr));
-  filter: drop-shadow(0 0 10px var(--clr));
-  transition: 0.3s;
-} */
 
 /*projetos*/
 
@@ -402,33 +311,7 @@ header.active {
   padding-bottom: 55px;
 }
 
-.bg-projeto .title {
-  color: white;
-  font-family: 'Righteous', 'IBM Plex Mono', monospace;
-  letter-spacing: 2px;
-  font-size: 2rem;
-  padding-top: 40px;
-}
 
-.bg-projeto .title::before {
-  content: ' ';
-  position: relative;
-  border-bottom: 1px solid #1cb798;
-  width: 80px;
-  line-height: 42px;
-  bottom: -50px;
-  display: block;
-  margin: 0 auto;
-}
-
-.bg-projeto .title::after {
-  content: ' ';
-  border-bottom: 1px solid #1cb798;
-  display: block;
-  width: 40px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
 
 .projetos {
   display: flex;
@@ -514,32 +397,6 @@ header.active {
   background: #1e2326;
   color: white;
   text-align: center;
-}
-
-.contato h2 {
-  padding-top: 40px;
-  font-size: 2rem;
-  font-family: 'Righteous', 'IBM Plex Mono', monospace;
-}
-
-.contato h2::before {
-  content: ' ';
-  position: relative;
-  border-bottom: 1px solid #1cb798;
-  width: 80px;
-  line-height: 42px;
-  bottom: -50px;
-  display: block;
-  margin: 0 auto;
-}
-
-.contato h2::after {
-  content: ' ';
-  border-bottom: 1px solid #1cb798;
-  display: block;
-  width: 40px;
-  margin: 0 auto;
-  margin-top: 20px;
 }
 
 .contato ul {

@@ -39,7 +39,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.slide h2 {
+.slide h3 {
   margin: 20px 0 10px 0;
   font-size: 1.5rem;
   line-height: 16px;
@@ -48,7 +48,7 @@
   color: #fff;
 }
 
-.slide h2::after {
+.slide h3::after {
   content: ' ';
   border-bottom: 1px solid #1cb798;
   display: block;
